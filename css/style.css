@@ -1,0 +1,261 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 70px;
+}
+
+h2 {    
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    }
+
+
+h3 {
+    margin: 0;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    padding-top: 20px;}
+
+h4 {
+    margin: 0;
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+h5 {    
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    padding-bottom: 75px;
+    }
+
+
+/* Splash */
+
+.splash {
+    height: 90vh;
+    position: relative;
+    background: black;
+    /* wersja z obrazkiem;
+    background-image: url('https://i.postimg.cc/GpPNpVbw/background-image.png');
+    background-position: center center; 
+    background-size: cover;
+    /* background-attachment: fixed; */
+    }
+    
+.splash .center {
+    padding-top: 12%;
+        
+}
+
+.splash h1 {
+    font-size: 70px;
+    line-height: 150px;
+    font-weight: bold;
+    color: white;
+}
+
+.splash h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+}
+
+.nav{
+    padding-top: 50px;
+}
+
+.nav span{
+    color: gold;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.splash a.button {
+    display: block;
+    margin: 10px auto;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;
+    background: orange;
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    border: solid orange 3px;
+    border-radius: 3px;
+}
+
+    
+
+/* Services */
+
+.services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services-box {
+    background: white;
+    padding-bottom: 75px;
+}
+
+.services-box i {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: orange;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    line-height: 60px;
+    border: solid orange 3px;
+    border-radius: 50%;
+    
+}
+
+.services-box p {
+    text-align: center;
+}
+
+
+/* Our portfolio */
+
+.our-portfolio {
+    background: lightgray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.box {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.box-img {
+    background: gray;
+    min-height: 300px;
+    max-height: 400px;
+}
+
+.box-txt {
+    background: white;
+    text-align: center;
+    min-height: 50px;
+    max-height: 100px;
+}
+
+/* Footer*/
+
+footer {
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer ul {
+    text-align: center;
+    list-style-type: none;
+}
+footer li {
+    display: inline-block;
+}
+
+footer i {
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    border: solid 10px black;
+    border-radius: 50%;
+}
+
+
+footer a {
+    font-size: 0;
+}
+
+@media (max-width: 767px) {
+    .hidden-md {
+        display: none;
+    }
+    
+    splash h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
+}
+
+    .splash h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+}
+
+    .nav{
+    padding-top: 50px;
+}
+
+
+
+    .nav a {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+    .services {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .our-portfolio {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    
+
+}
